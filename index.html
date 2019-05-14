@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="describe" content="This is some DOM javascript practice work.">
+    <meta name="keywords" content="javascript, DOM js, SE6">
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>JavaScript DOM Tutorials</title>
+    <link rel="icons" href="images/javascript.jpg">
+
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">eBOOKS Shelf</h1>
+          <p>Books for Web Developing</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">HTML</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">CSS</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Bootstrap</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">JavaScript</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    	</ul>
+			</div>
+
+			<form id="hide-book">
+					<input type="checkbox" id="hide" />
+			  	<label for="hide">Hide all books</label>
+			</form>
+
+	    <form id="add-book">
+            <input type="text" placeholder="Add a book..." />
+	           <button>Add</button>
+			</form>
+			
+ 
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
